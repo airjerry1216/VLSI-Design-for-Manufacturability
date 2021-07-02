@@ -1,0 +1,13 @@
+--How to Compile
+    In this directory, enter the following command:
+    $ make
+    It will generate the executable file "Hybrid_Lithography" in "Project/bin/".
+
+    If you want to remove it and all .o files, please enter the following command:
+    $ make clean
+
+--How to Run
+    In this directory, enter the following command:
+    Usage: ../bin/<exe> dis <out file>  <out file>
+    e.g.:
+    $ ../bin/Hybrid_Lithography 0.064 ../testcase/M0.out ../output/M0_0064.out 
